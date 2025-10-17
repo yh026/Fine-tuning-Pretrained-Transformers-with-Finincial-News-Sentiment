@@ -26,7 +26,7 @@ Two pretrained transformer models are supported:
 
 ## 🚀 Quick Start
 
-### 1. Install dependencies
+### 1. Install dependencies (python==3.12.12)
 ```bash
 pip install -r requirements.txt
 ```
