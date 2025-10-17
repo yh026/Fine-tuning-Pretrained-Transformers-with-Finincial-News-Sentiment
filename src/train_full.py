@@ -25,7 +25,7 @@ def full_fine_tuning(encoded_dataset,tokenizer):
     training_args = TrainingArguments(
         output_dir="./results_BERT_full_finetune",
         do_eval=True,
-        evaluation_strategy="epoch",
+        eval_strategy="epoch",
         save_strategy="epoch",
         learning_rate=2e-5,
         per_device_train_batch_size=32,
