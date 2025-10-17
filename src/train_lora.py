@@ -45,6 +45,8 @@ def lora_fine_tuning(encoded_dataset,tokenizer):
         weight_decay=0.01,
         logging_dir="./logs_lora",
         logging_strategy="epoch",
+        seed = 42,
+        data_seed = 42,
     )
 
     trainer_lora = Trainer(
@@ -64,3 +66,4 @@ def lora_fine_tuning(encoded_dataset,tokenizer):
     
 
     return lora_logs
+
