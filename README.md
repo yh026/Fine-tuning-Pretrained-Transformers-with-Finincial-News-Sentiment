@@ -43,9 +43,12 @@ python main.py
 ├── main.py                # Entry point for training / evaluation
 ├── requirements.txt       # Dependencies
 ├── README.md              # Project documentation
-└── src/                  # sources
+└── src/
 ```
 
+---
 
+## Results
 
+- All the plots generated will be stored in results/
 
