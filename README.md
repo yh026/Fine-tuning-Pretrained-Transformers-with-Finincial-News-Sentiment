@@ -8,7 +8,7 @@ This project fine-tunes pretrained transformer models on a **financial news sent
 
 We use the [**Twitter Financial News Sentiment**](https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment) dataset from Hugging Face.
 
-- **Description:** Annotated financial tweets/headlines with sentiment labels (Positive, Negative, Neutral)
+- **Description:** Annotated financial tweets/headlines with sentiment labels (Bearish, Bullish, Neutral)
 - **Source:** Hugging Face Datasets
 
 ---
@@ -32,8 +32,9 @@ pip install -r requirements.txt
 ```
 
 ### 2. Run the main script
-
+```bash
 python main.py
+```
 
 
 
