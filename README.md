@@ -28,7 +28,7 @@ Two pretrained transformer models are supported:
 
 ### 1. Install dependencies (python==3.12.12)
 ```bash
-pip install -r requirements.txt
+!pip install -r requirements.txt --index-url https://download.pytorch.org/whl/cu126
 ```
 
 ### 2. Run the main script
