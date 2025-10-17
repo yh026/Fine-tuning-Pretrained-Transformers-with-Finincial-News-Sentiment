@@ -40,10 +40,6 @@ def load_and_preprocess_data():
     print(f"Loading dataset...")
     dataset = load_dataset("zeroshot/twitter-financial-news-sentiment")
     
-    # Limit dataset for debugging
-    dataset["train"] = dataset["train"].select(range(100))
-    dataset["validation"] = dataset["validation"].select(range(50))
-    
     # Clean tweets
     print("Cleaning tweet text...")
     dataset = dataset.map(lambda x: {"text": clean_tweet(x["text"])})
