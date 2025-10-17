@@ -30,8 +30,7 @@ def full_fine_tuning(encoded_dataset,tokenizer):
         learning_rate=2e-5,
         per_device_train_batch_size=32,
         per_device_eval_batch_size=64,
-        # num_train_epochs=20,
-        num_train_epochs = 2, # for debug
+        num_train_epochs=20,
         load_best_model_at_end=True,
         weight_decay=0.01,
         logging_dir="./logs",
