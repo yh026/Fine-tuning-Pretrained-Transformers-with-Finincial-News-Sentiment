@@ -50,5 +50,4 @@ python main.py
 
 ## Results
 
-- All the plots generated will be stored in results/
-
+- All generated plots (loss curves, accuracy and F1 charts) will be stored in the results/ directory.
