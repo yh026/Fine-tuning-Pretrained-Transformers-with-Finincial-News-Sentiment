@@ -6,7 +6,7 @@ This project fine-tunes pretrained transformer models on a **financial news sent
 
 ## 📊 Dataset
 
-We use the [**Twitter Financial News Sentiment**](https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment) dataset from Hugging Face.
+I use the [**Twitter Financial News Sentiment**](https://huggingface.co/datasets/zeroshot/twitter-financial-news-sentiment) dataset from Hugging Face.
 
 - **Description:** Annotated financial tweets/headlines with sentiment labels (Bearish, Bullish, Neutral)
 - **Source:** Hugging Face Datasets
@@ -41,6 +41,7 @@ python main.py
 ## ⚙️ Project Structure
 ```bash
 ├── main.py                # Entry point for training / evaluation
+├── FineTuning.ipynb       # Notebook with outputs for reference
 ├── requirements.txt       # Dependencies
 ├── README.md              # Project documentation
 └── src/
