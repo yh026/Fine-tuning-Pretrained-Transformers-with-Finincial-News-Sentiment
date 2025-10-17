@@ -35,6 +35,8 @@ def full_fine_tuning(encoded_dataset,tokenizer):
         weight_decay=0.01,
         logging_dir="./logs",
         logging_strategy="epoch",
+        seed = 42,
+        data_seed = 42,
     )
 
     trainer = Trainer(
