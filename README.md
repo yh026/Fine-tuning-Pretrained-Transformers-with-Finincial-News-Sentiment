@@ -36,5 +36,16 @@ pip install -r requirements.txt
 python main.py
 ```
 
+---
+
+## ⚙️ Project Structure
+```bash
+├── main.py                # Entry point for training / evaluation
+├── requirements.txt       # Dependencies
+├── README.md              # Project documentation
+└── src/                  # sources
+```
+
+
 
 
